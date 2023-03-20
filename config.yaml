@@ -1,0 +1,8 @@
+---
+    #Important: Subtracting rules from this file can result in lost history of rules that were once enforced by the org. It becomes the source of truth for all rules no longer enforced by the org.
+
+    #If you are planning on executing deletions or one off changes for a smaller group of projects, save historic rule text beforehand so it can be restored for future runs.
+
+    rules: "{\"rules\":{\"0\":{\"type\":\"email\",\"redaction\":{\"method\":\"hash\"}},\"1\":{\"type\":\"ip\",\"redaction\":{\"method\":\"hash\"}},\"2\":{\"type\":\"uuid\",\"redaction\":{\"method\":\"hash\"}},\"3\":{\"type\":\"creditcard\",\"redaction\":{\"method\":\"hash\"}},\"4\":{\"type\":\"mac\",\"redaction\":{\"method\":\"hash\"}},\"5\":{\"type\":\"password\",\"redaction\":{\"method\":\"hash\"}},\"6\":{\"type\":\"pemkey\",\"redaction\":{\"method\":\"hash\"}},\"7\":{\"type\":\"url_auth\",\"redaction\":{\"method\":\"hash\"}},\"8\":{\"type\":\"us_ssn\",\"redaction\":{\"method\":\"hash\"}},\"9\":{\"type\":\"userpath\",\"redaction\":{\"method\":\"hash\"}}},\"applications\":{\"**\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"]}}"
+    org_slug: "<org_slug>"
+    auth: "<auth_token>"
