@@ -45,6 +45,9 @@ org_slug: "<my_org_slug>"
 4. Capture for payload for put PUT :![alt text](rules_ui.png)
 5. Paste payload into rules section of `config.yaml`. See example above.
 6. Complete `config.yaml` with org slug.
+7. Run `python3 create_rule.py` to fetch project rule data.
+8. Select `snapshot` option from prompt to archive current project rules within org. This can be used to restore if needed.
+9. Proceed to update `all`, `some`, or `new` projects with rules specified in `config.yaml`.
 
 ### Rules FAQ
 ---
